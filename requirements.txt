@@ -1,3 +1,8 @@
 langgraph
 langchain-ollama==0.3.7 
 ollama==0.5.3
+# pygraphviz is optional, only needed for drawing flow diagrams
+# To install pygraphviz, you first need to install Graphviz system library:
+# - MacOS: brew install graphviz
+# - Ubuntu: sudo apt-get install graphviz graphviz-dev
+# Then: pip install pygraphviz
